@@ -6,6 +6,7 @@
   right: 0;
   background-color: #333;
   overflow: hidden;
+  height: 48px
 }
 
 /* Style the links inside the navigation bar */
@@ -30,12 +31,19 @@
   color: white;
 }
 
+.myname {
+  float: left;
+  min-height: 100%;
+}
+
 /* Style the name in the top left corner */
 .myname a {
   float: left;
+  /* Override the inherited <a> padding to prevent additional unwanted padding */
   padding: 0px 30px;
 }
 
+/* Override the inherited <a> hover behaviour */
 .myname a:hover {
   background-color: #333;
   color: #f2f2f2;
