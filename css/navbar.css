@@ -61,8 +61,8 @@
 }
 
 
-/* If the device has a max width <480px */
-@media only screen and (max-device-width: 2000px) { /* Nb. Set to 2000 for debugging */
+/* If the device has a max width <800px */
+@media only screen and (max-width: 800px) {
   .desktop-navbar {display: none;}
   .mobile-navbar {display: block;}
 }
