@@ -30,6 +30,7 @@
 }
 
 /* HAMBURGER MENU STYLING */
+/* Credit where it's due for the hamburger styling: https://codepen.io/alvarotrigo/pen/wvrzPWL */
 /* Hidden by default */
 .mobile-menu-items {
   display: none;
