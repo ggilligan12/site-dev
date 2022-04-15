@@ -25,8 +25,10 @@
 }
 /* Add a color to the active/current link */
 .navbar a.active {
-  background-color: #ff6600;
-  color: white;
+  /*background-color: #ff6600;*/
+  /*background-color: rgb(13, 129, 7);*/
+  background-color: #ddd;
+  color: black;
 }
 
 /* HAMBURGER MENU STYLING */
